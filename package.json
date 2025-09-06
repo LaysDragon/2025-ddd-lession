@@ -1,0 +1,29 @@
+{
+  "name": "member-management-project",
+  "version": "1.0.0",
+  "description": "DDD Member Management System",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "nodemon --exec ts-node src/main.ts",
+    "clean": "rmdir /s /q dist 2>nul || true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ddd", "member-management", "typescript", "express"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "tsyringe": "^4.10.0",
+    "typescript": "^5.9.2"
+  }
+}
